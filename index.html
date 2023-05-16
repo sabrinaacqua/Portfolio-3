@@ -4,8 +4,14 @@
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<script src="jquery-latest.min.js"></script>
 <body>
+    <div id="loading-page">
+        <div class="loading-logo"></div>
+            <img src="loading-logo.png" alt="Logo">
+        </div>
+    </div>
+
     <header>
         <div class="logo">
             <img src="personal-logo.png" alt="My Logo">
@@ -19,44 +25,50 @@
         </nav>
     </header>
 
+    <div class="hero-image">
+        <div class="container">
+          <img src="leaf.png" alt="leaf" class="centered-image" id="leaf-image">
+      
+          <div class="gif-container" id="gif-container">
+            <iframe src="https://giphy.com/embed/cXblnKXr2BQOaYnTni" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+            <p><a href="https://giphy.com/gifs/theoffice-the-office-tv-moroccan-christmas-cXblnKXr2BQOaYnTni">via GIPHY</a></p>
+          </div>
+        </div>
+      
+        <div class="content">
+          <h1>Sabrina Acquaviva</h1>
+          <h4><u>UX/UI DESIGNER</u></h4>
+          <h5>After three years of working as a server and bartender, I have just completed UofT's UX/UI program and discovered a profound passion for designing engaging and intuitive user experiences.</h5>
+          <button>See My Work</button>
+        </div>
+      </div>      
 
-    <img src="leaf.png" alt="leaf" class="centered-image">
-    <h1>Sabrina Acquaviva</h1>
-
-    <h4><u>UX/UI DESIGNER</u></h4>
-
-    <h5>After three years of working as a server and bartender,
-        I have just completed UofT's UX/UI program and discovered
-        a profound passion for designing engaging
-        and intuitive user experiences.</h5>
-
-    <button>See My Work</button>
-
-    <h3>What I bring to the table...</h3>
-
+      <div class="header-container">
+        <h3>What I bring to the table...</h3>
+      </div>
     <section class="skills">
-        <div class="skills">
-            <div class="skill">
-              <img src="skill-design.png">
-              <p>UX/UI Design</p>
-            </div>
-            <div class="skill">
-              <img src="skill-code.png">
-              <p>Coding</p>
-            </div>
-            <div class="skill">
-              <img src="skill-research.png">
-              <p>Research</p>
-            </div>
-            <div class="skill">
-              <img src="skill-collab.png">
-              <p>Collaboration</p>
-            </div>
-          </div>          
+        <div class="skill">
+            <img src="skill-design.png">
+            <p>UX/UI Design</p>
+        </div>
+        <div class="skill">
+            <img src="skill-code.png">
+            <p>Coding</p>
+        </div>
+        <div class="skill">
+            <img src="skill-research.png">
+            <p>Research</p>
+        </div>
+        <div class="skill">
+            <img src="skill-collab.png">
+            <p>Collaboration</p>
+        </div>         
     </section>
 
-    <h3> TOOLS </h3>
 
+    <div class="header-container">
+      <h3>Tools Used</h3>
+    </div>
     <section class="tools">
         <div id="tools">
             <div class="tool">
@@ -77,8 +89,9 @@
           </div>          
     </section>
 
-    <h3>MY WORK</h3>
-
+    <div class="header-container">
+      <h3>My Work</h3>
+    </div>    
     <section class="my-work">
           </style>    
         <div class="case-study">
@@ -95,15 +108,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis sapien id lorem fringilla, sit amet venenatis lacus blandit. </p>
           </div>
         </div>
-        <div class="case-study">
-          <img src="casestudy-3.png" alt="Case Study 3">
-          <div class="case-study-text">
-            <h4><strong>Case Study 3</strong></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis sapien id lorem fringilla, sit amet venenatis lacus blandit. </p>
-          </div>
-        </div>
+        <button>See More Work</button>
       </section>
-
      
     <footer>
         <nav>
@@ -118,6 +124,6 @@
         </div>
     </footer>
 
+    <script src="index.js"></script>
 </body>
 </html>
-
